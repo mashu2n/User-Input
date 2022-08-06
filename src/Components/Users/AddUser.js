@@ -4,6 +4,7 @@ import Card from "../UI/Card";
 import Button from "../UI/Button";
 import classes from "./AddUser.module.css";
 
+// Fetching user input
 const AddUser = (props) => {
   const [enteredUsername, setEnteredUsername] = useState("");
   const [enteredAge, setEnteredAge] = useState("");
